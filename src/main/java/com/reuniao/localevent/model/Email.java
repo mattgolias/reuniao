@@ -1,14 +1,18 @@
 package com.reuniao.localevent.model;
 
-import lombok.*;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.UUID;
 
 @Entity
 @Table(name = "EMAIL")
-@Getter @Setter
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Email {
@@ -20,3 +24,4 @@ public class Email {
     @NotNull
     private String email;
 }
+

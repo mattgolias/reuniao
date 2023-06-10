@@ -4,12 +4,12 @@ import com.reuniao.localevent.dto.FuncionarioDto;
 import com.reuniao.localevent.model.Funcionario;
 import com.reuniao.localevent.services.FuncionarioService;
 import com.reuniao.localevent.services.EmailService;
+import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;

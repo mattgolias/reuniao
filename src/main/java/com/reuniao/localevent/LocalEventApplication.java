@@ -2,13 +2,10 @@ package com.reuniao.localevent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
-public class LocalEventApplication {
+@SpringBootApplication
+public class LocaleventApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(LocalEventApplication.class, args);
-	}
+	public static void main(String[] args) {SpringApplication.run(LocaleventApplication.class, args);}
 
 }

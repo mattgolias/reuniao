@@ -1,9 +1,9 @@
 package com.reuniao.localevent.dto;
 
 import com.reuniao.localevent.model.Funcionario;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
-import javax.validation.constraints.NotBlank;
 import java.util.List;
 
 @Data
