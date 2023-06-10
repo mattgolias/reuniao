@@ -1,3 +1,5 @@
+package com.reuniao.localevent.controller;
+
 import com.reuniao.localevent.dto.FuncionarioDto;
 import com.reuniao.localevent.model.Funcionario;
 import com.reuniao.localevent.services.FuncionarioService;
