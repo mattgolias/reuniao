@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LocaleventApplication {
+public class LocalEventApplication {
 
-	public static void main(String[] args) {SpringApplication.run(LocaleventApplication.class, args);}
+    public static void main(String[] args) {SpringApplication.run(LocalEventApplication.class, args);}
 
 }
